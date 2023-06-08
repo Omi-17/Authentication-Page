@@ -1,0 +1,41 @@
+.withGoogle{
+    display: block;
+    box-sizing: border-box;
+    width: 50%;
+}
+
+.form{
+    display: block;
+    margin: auto;
+    width: 50%;
+    box-sizing: border-box;
+    margin-top: 5%;
+    text-align: left;
+}
+
+.withGoogle input{
+    display: block;
+    width: 100%;
+    text-align: center;
+    padding: 10px;
+    margin: auto;
+    margin-bottom: 10%;
+    font-size: 20px;
+    border-radius: 10px;
+    border: 2px solid #ADB5BD;
+}
+
+.strikethrough{
+    width: 100%;
+    text-align: center;
+    border-bottom: 2px solid #ADB5BD;
+    line-height: 0.1em;
+    margin: auto;
+    margin-left: 3%;
+    margin-top: 7%;
+}
+.strikethrough span{
+    background: white; 
+    color: #ADB5BD;
+    padding: 0 10px;
+}

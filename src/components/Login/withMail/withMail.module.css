@@ -1,0 +1,41 @@
+.withMail {
+    display: block;
+    box-sizing: border-box;
+    width: 50%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+
+.form {
+    display: block;
+    margin: auto;
+    width: 50%;
+    box-sizing: border-box;
+    text-align: left;
+}
+
+input {
+    display: block;
+    width: 100%;
+    text-align: left;
+    padding: 10px;
+    margin-left: 0;
+    margin-top: -3.5%;
+    font-size: 20px;
+    border-radius: 10px;
+    border: 2px solid #ADB5BD;
+}
+
+.form h3 {
+    text-align: left;
+}
+
+.form h3::after {
+    content: '*';
+    color: red;
+}
+
+.form a{
+    text-decoration: none;
+    color: #0077B6;
+}

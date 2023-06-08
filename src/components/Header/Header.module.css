@@ -1,0 +1,19 @@
+.Header {
+    display: block;
+    box-sizing: border-box;
+    width: 50%;
+}
+
+.Header h1 {
+    display: block;
+    width: 60%;
+    margin-left: 10%;
+    text-align: left;
+}
+
+.Header p {
+    display: block;
+    width: 60%;
+    margin-left: 10%;
+    text-align: left;
+}
