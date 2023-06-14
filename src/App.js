@@ -2,7 +2,7 @@ import React from 'react'
 import './App.css';
 import Button from './components/Button/Button';
 import Header from './components/Header/Header';
-import Auth from './components/Login/Auth';
+import Auth from './components/Auth/Auth';
 import SignIn from './components/Footer/SignIn/SignIn';
 import SignUp from './components/Footer/SignUp/SignUp';
 import SideScreen from './components/SideScreen/SideScreen';

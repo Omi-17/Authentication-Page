@@ -6,7 +6,7 @@ const withGoogle = (props) => {
         <div className={Styling.withGoogle}>
             <form>
                 <div className={Styling.form}>
-                    <input type='text' placeholder='Sign In with Google'></input>
+                    <input type='text' placeholder='Sign In with Google' />
                     <p className={Styling.strikethrough}><span>or Sign in with Email</span></p>
                 </div>
             </form>

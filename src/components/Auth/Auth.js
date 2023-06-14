@@ -1,7 +1,7 @@
 import React from 'react';
 import WithGoogle from './withGoogle/withGoogle';
 import Mail_SignIN from './withMail/Mail_SignIN';
-import Mail_SignUp from '../../components/Login/withMail/Mail_SignUp';
+import Mail_SignUp from '../../components/Auth/withMail/Mail_SignUp';
 import { Route, Routes } from 'react-router-dom';
 
 const auth = (props) => {
