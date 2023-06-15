@@ -20,7 +20,7 @@
     padding: 10px;
     margin: auto;
     margin-bottom: 10%;
-    font-size: 20px;
+    font-size: 1.25rem;
     border-radius: 10px;
     border: 2px solid #ADB5BD;
 }
@@ -39,4 +39,16 @@
     background: white; 
     color: #ADB5BD;
     padding: 0 10px;
+}
+
+@media (max-width: 400px)
+{
+    .withGoogle{
+        display: block;
+        box-sizing: border-box;
+        width: max-content;
+        margin: auto;
+        margin-top: 2%;
+        margin-bottom: 2%;
+    }
 }

@@ -17,3 +17,26 @@
     margin-left: 10%;
     text-align: left;
 }
+
+@media (max-width: 400px)
+{
+    .Header {
+        display: block;
+        box-sizing: border-box;
+        width: 100%;
+    }
+    .Header h1 {
+        display: block;
+        width: 60%;
+        margin: auto;
+        padding: 5px;
+        text-align: center;
+    }
+    .Header p {
+        display: block;
+        width: 60%;
+        margin:auto;
+        padding: 5px;
+        text-align: center;
+    }
+}

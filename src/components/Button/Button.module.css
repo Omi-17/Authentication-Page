@@ -19,3 +19,29 @@ button {
     border-radius: 10px;
     border: #0096C7;
 }
+
+@media (max-width: 400px)
+{
+    .Button {
+        display: block;
+        box-sizing: border-box;
+        width: max-content;
+        margin: auto;
+        margin-top: 2%;
+        margin-bottom: 2%;
+    }
+
+    button {
+        display: block;
+        width: 100%;
+        padding: 10px;
+        margin: auto;
+        margin-left: 25%;
+        font-size: 20px;
+        color: white; 
+        background-color: #0096C7;
+        font-family:  sans-serif;
+        border-radius: 10px;
+        border: #0096C7;
+    }
+}
