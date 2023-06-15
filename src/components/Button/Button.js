@@ -8,4 +8,5 @@ const button = (props) => {
         </div>
     );
 }
+
 export default button;

@@ -1,20 +1,21 @@
 import React from 'react';
 import WithGoogle from './withGoogle/withGoogle';
-import Mail_SignIN from './withMail/Mail_SignIN';
-import Mail_SignUp from '../../components/Auth/withMail/Mail_SignUp';
-import { Route, Routes } from 'react-router-dom';
+import WithMail from './withMail/WithMail';
+import { connect } from 'react-redux';
 
 const auth = (props) => {
     return(
         <div>
             <WithGoogle />
-            <Routes>
-                <Route path='/' Component={Mail_SignIN}/>
-                <Route path='/SignIn' Component={Mail_SignIN}/>
-                <Route path='/SignUp' Component={Mail_SignUp}/>
-            </Routes>
+            <WithMail show={props.show}/>
         </div>
     )
 };
 
-export default auth;
+const mapStateToProps = state => {
+    return {
+        show: state.show
+    }
+}
+
+export default connect(mapStateToProps)(auth);

@@ -1,25 +1,23 @@
+import * as Actions from '../Store/Actions';
 
 const initialState = {
-    show: "SignIn"
+    show: "SIGN_IN"
 }
 
 const reducer = (state = initialState, action) => {
     switch (action.type) {
-        case "SignIn":
+        case "SWITCH":
+            let temp = state.show
+            if (temp === "SIGN_IN")
+                temp = "SIGN_UP"
+            else
+                temp = "SIGN_IN"
             return {
                 ...state,
-                show: "SignUp"
-            }
-        case "SignUp":
-            return {
-                ...state,
-                show: "SignIn"
+                show: temp
             }
         default:
-            return {
-                ...state,
-                show: !state.show
-            }
+            return state
     }
 }
 
