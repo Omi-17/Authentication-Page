@@ -24,9 +24,9 @@ const reducer = (state = initialState, action) => {
             }
             let url = "";
             if(state.show === "LOGIN")
-            url = "https://identitytoolkit.googleapis.com/v1/accounts:signInWithPassword?key=AIzaSyA53As-3pNvL6VL9Gd-GexULh6OSNU5Fks"
+            url = "https://identitytoolkit.googleapis.com/v1/accounts:signInWithPassword?key=%REACT_APP_KEY%"
             else
-            url = "https://identitytoolkit.googleapis.com/v1/accounts:signUp?key=AIzaSyA53As-3pNvL6VL9Gd-GexULh6OSNU5Fks"
+            url = "https://identitytoolkit.googleapis.com/v1/accounts:signUp?key=%REACT_APP_KEY%"
             alert("Authentication Successful")
             axios.post(url, data).then(res => console.log(res.data)).catch(err => console.log(err))
         default:
